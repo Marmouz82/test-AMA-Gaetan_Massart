@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title> Front end test </title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Candidate</h1>
+        <form action="#" class="formulary">
+            <div class="inputs-container">
+
+                <div class="input-group">
+                    <label for="firstname">First name</label>
+                    <input type="text" id="firstname">
+                </div>
+
+                <div class="input-group">
+                    <label for="surname">Surname</label>
+                    <input type="text" id="surname">
+                </div>
+
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone number</label>
+                    <input type="text" id="phone">
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <div class="input-password">
+                        <input type="password" id="password" class="password" required>
+                        <img src="./img/eye.svg" id="eye" class="eye" alt="eye">
+                        <img src="./img/eye-off.svg" id="eye-off" class="eye-off" alt="eye">
+                    </div>
+                </div>
+                <div class="pwd-must-have">
+                    <p>> 6 letters</p>
+                    <p>1 capital</p>
+                    <p>1 lower case</p>
+                    <p>1 number</p>
+                </div>
+                <div class="input-group">
+                    <label for="password-confirm">Confirm password</label>
+                    <div class="input-password">
+                        <input type="password" id="password-confirm" class="password" required>
+                        <img src="./img/eye.svg" id="eye-confirm" class="eye-confirm" alt="eye">
+                        <img src="./img/eye-off.svg" id="eye-off-confirm" class="eye-off" alt="eye">
+                    </div>
+                </div>
+
+            </div>
+            <div class="btn-container">
+                <button type="reset">CANCEL</button>
+                <button type="submit">CREATE</button>
+            </div>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

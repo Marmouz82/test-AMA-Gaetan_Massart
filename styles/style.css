@@ -1,0 +1,90 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 600px;
+  height: 40px;
+  border: none;
+  border: 1px solid #EDEFF1;
+  border-radius: 15px;
+  padding: 0 10px;
+}
+input:focus {
+  outline: 1px solid #6159A1;
+}
+
+.separator {
+  width: 100px;
+  height: 3px;
+  background-color: #DCE0E3;
+  margin: 20px auto;
+}
+
+.container h1 {
+  display: none;
+}
+.container .input-group {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.container .input-group label {
+  margin-bottom: 8px;
+  padding-left: 10px;
+  color: #6159A1;
+  font-weight: 700;
+}
+.container .input-group .input-password {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.container .input-group .input-password img {
+  cursor: pointer;
+  position: absolute;
+  padding-right: 10px;
+}
+.container .input-group .input-password .eye-off {
+  display: none;
+}
+.container .pwd-must-have {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 12px;
+  font-weight: 100;
+  color: #A8A8A8;
+  padding-left: 20px;
+}
+.container .btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.container .btn-container button {
+  padding: 10px 35px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+}
+.container .btn-container :nth-child(1) {
+  background-color: #C1C1D0;
+}
+.container .btn-container :nth-child(2) {
+  background-color: #4495D1;
+}/*# sourceMappingURL=style.css.map */
